@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Praktek Deployment  II
+        </title>
+    </head>
+    <body>
+        <form action="/predict" method="POST">
+            <!-- Input Type: text, number, date, radio, checkbox, hidden, submit -->
+            <h2>Input Form</h2>
+            <div style="width:200px;">
+                <label >Name:</label>
+            </div>
+            <input type="text" name="nama" id="nama"><br><br>
+            <div style="width:200px;">
+                <label>Age:</label>
+            </div>
+            <div style="width:200px;">
+                <input type="number" name="age" id="age"><br><br>
+            </div>
+            <label>Sex:</label>
+            <input type="radio" name="sex" id="sexF" value="0"><label>female</label>
+            <input type="radio" name="sex" id="sexM" value="1"><label>male</label><br><br>
+            <div style="width:200px;">
+                <label>BMI:</label>
+            </div>
+            <input type="number" name="bmi" id="bmi"><br><br>
+            <label>Children:</label>
+            <input type="number" name="children" id="children"><br><br>
+            <label>Smoker:</label>
+            <input type="radio" name="smoker" id="smokerY" value="1"><label>yes</label>
+            <input type="radio" name="smoker" id="smokerN" value="0"><label>no</label><br><br>
+            <label>Region:</label>
+            <input type="radio" name="region" id="regionNW" value="0"><label>northwest</label>
+            <input type="radio" name="region" id="regionNE" value="1"><label>northeast</label>
+            <input type="radio" name="region" id="regionSW" value="2"><label>southwest</label>
+            <input type="radio" name="region" id="regionSE" value="3"><label>southeast</label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
